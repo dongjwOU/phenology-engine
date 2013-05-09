@@ -19,7 +19,7 @@ try:
   import Image, ImageDraw
   
 except ImportError:
-  sys.stdout.write("\nWhoopsie Caught from Rasters.py\nFailed to import some requisite python libraries.  The OPE python interface requires you have GDAL/OGR and the Python Image Library\ninstalled.  These libraries came pre-packaged with OPE for POSIX and Windows platforms, so if you installed from a standard OPE release,\nyou shouldn't see this message.  See the included install.txt for more information on how to set them up.\n\n")
+  sys.stdout.write("\nWhoopsie Caught from rasters.py\nFailed to import some requisite python libraries.  The OPE python interface requires you have GDAL/OGR and the Python Image Library\ninstalled.  These libraries came pre-packaged with OPE for POSIX and Windows platforms, so if you installed from a standard OPE release,\nyou shouldn't see this message.  See the included install.txt for more information on how to set them up.\n\n")
   sys.exit(-1)
 
 # Local Imports
